@@ -21,9 +21,6 @@ public class SearchFirst {
         driver.manage().window().maximize();
         driver.get("https://www.avito.ru/sankt-peterburg");
 
-        //WebElement elementCategory = driver.findElement(By.name("category_id"));
-        //elementCategory.click();
-
         WebElement elementCategoryValue = driver.findElement(By.partialLinkText("Билеты и путешествия"));
         elementCategoryValue.click();
 
@@ -33,11 +30,7 @@ public class SearchFirst {
         WebElement elementCategoryDeviatkino = driver.findElement(By.xpath("svg:svg/svg:g/svg:text[36]"));
         elementCategoryDeviatkino.click();
 
-
-
-        //elementPassword.sendKeys("console123");
-
-        //driver.close();
+        driver.close();
 
 
     }
