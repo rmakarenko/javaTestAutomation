@@ -27,6 +27,8 @@ public class youtubeOpener {
         assertTrue("the Page is not avito", pageName.contains("avito"));
 
 
+        //test git push
+
         /*
         public void isYoutubePage() {
             assumeThat("Page mismatch! Current page is not CoCa tariff catalog! ", getTitle(), containsString(TestData.Tariffs.tariffFamilyFamilyCard));
